@@ -25,7 +25,7 @@ print(line[::-1])
 
 
 z = range(10)
-y = range (5, 10)
+y = range(5, 10)
 #print(range(10))
 
 list(range(0, 10))

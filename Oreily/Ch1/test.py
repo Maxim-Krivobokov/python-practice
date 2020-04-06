@@ -5,7 +5,7 @@ import time
 path1 = getcwd()
 
 str2 = sys.platform
-print( path1 )
+print(path1)
 
 print (str2)
 
