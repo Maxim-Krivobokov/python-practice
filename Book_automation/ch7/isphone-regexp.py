@@ -3,7 +3,7 @@ import re
 #function to search phone numbers in text using regexp
 def tlf_regexp_test(teststring):
     phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
-    #phinenumregex is type regex now
+    #phoneNumRegex is type regex now
     mo = phoneNumRegex.search(teststring)
     # calling search() method will assign match  object to mo variable
     print('Found number: ' + mo.group())
