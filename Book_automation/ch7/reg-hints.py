@@ -59,3 +59,28 @@ print(ph01.group())
 ph02 = phoneRegex.search(' my short number is 999-7575')
 
 print(ph02.group())
+
+# method FINDALL
+
+phoneRegex1 = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') # no groups
+
+phoneRegex2 = re.compile(r'(\d\d\d)-(\d\d\d)-(\d\d\d\d)') # 3 groups
+
+print('=====================================================')
+print('My number is 123-345-5678, worknum is 994-131-4627')
+#output will be list of strings
+print('no-group findall:')
+print(phoneRegex1.findall('My number is 123-345-5678, worknum is 994-131-4627'))
+
+#output will be list of tuples
+print(' findall with groups:')
+print(phoneRegex2.findall('My number is 123-345-5678, worknum is 994-131-4627'))
+
+
+
+
+# symbol classes
+# \d = [0-9] \s = [' '|\t|\n] \w = [a-z, 0-9, _]
+xmasRegex = re.compile(r'\d+\s\w+')
+print(xmasRegex.findall('12 drummers, 11 pipers, 10 lords, 9 ladies'))
+

@@ -1,2 +1,5 @@
 # python-practice
-pracrising in python
+practising in python
+
+chapter7 - доделать проекты + д/з
+
