@@ -19,9 +19,9 @@ print('===============cwd=pwd========================')
 curDir = os.getcwd()
 print(os.getcwd())
 
-#chdir() is function like cd
+# chdir() is function like cd
 
-os.chdir('C:\\Windows\\System32')
+# os.chdir('C:\\Windows\\System32')
 print(os.getcwd())
 
 os.chdir(curDir)
@@ -30,7 +30,7 @@ print('===============makedirs========================')
 
 # fucntion makedirs() is like mkdir
 print('making local dir tempdir')
-#os.makedirs('.\\tempdir')
+# os.makedirs('.\\tempdir')
 
 print('======using os.path functions =================')
 
@@ -51,8 +51,8 @@ print(os.path.dirname(path1))
 
 
 print('-----split function returns tuple --------')
-#splits to dirname adn basename
+# splits to dirname adn basename
 print(os.path.split(path1))
 
-#split to single dirs
+# split to single dirs
 print(path1.split(os.path.sep))
