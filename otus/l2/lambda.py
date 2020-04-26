@@ -15,7 +15,7 @@ print(type(var01))
 print(simple_exp()())
 
 
-# this function returns lambda -fucntion, that takes Y and raises it to the power of Y
+# this function returns lambda -function, that takes Y and raises it to the power of X
 def exp(x):
     return lambda y: y ** x
 
