@@ -1,6 +1,7 @@
 # examples with fucntions
 
 
+# this function returns another function
 def outer_funct():
     def inner_funct():
         return 'inner text'
