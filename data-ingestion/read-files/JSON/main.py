@@ -33,7 +33,7 @@ def pairs_hook(pairs):
 def main():
     """
     reading json logs file line by line. Each string has a JSON format and can be DE-serialized string to python object type
-    custom object hooks allows to trabsform raw datetime to proper format, that suits to datetime and delta methods
+    custom object hooks allows to transform raw datetime to proper format, that suits to datetime and delta methods
     """
     print('Reading json logs')
     with open('taxi.jl') as fp:

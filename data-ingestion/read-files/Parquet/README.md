@@ -10,3 +10,8 @@ Apache arrow library is used to work with parquet
 
 ## Warning! 
 Dependency problems, need to investigate, how to install apache  parquet library
+
+TODO:
+- fix the parquet dependencies
+- add avro examples
+- add ORC examples
