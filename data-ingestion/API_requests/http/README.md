@@ -7,4 +7,4 @@ Works with Json (headers, bodies, response, etc.)
 
 Uses X-TRIPS-TOKEN header - auth method
 
-api_client.py - uses requests lib to make an HTTP requests.
+api_client.py - uses 'requests' lib to make an HTTP requests.
