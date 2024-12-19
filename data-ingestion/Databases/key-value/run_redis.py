@@ -11,8 +11,9 @@ data_file = here / 'commerce.jl'
 
 port = 6379
 
+# execute via powershell ;; or change to docker and execute on Unix host
 cmd = [
-    'docker', 'run',
+    'podman', 'run',
     '--rm', '-p', f'{port}:{port}',
     '--name', 'redis-demo',
     'redis:alpine',
