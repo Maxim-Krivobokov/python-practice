@@ -10,9 +10,10 @@ Not all Python types can be serialized in JSON
 In example script - Calculate average ride duration, by reading json logs
 
 Note: 
-```sh
+```python
 json.loads(textline, object_pairs_hook=smth)
 ```
+
 object_pairs_hook is an optional function that will be called with the result of any object literal decoded
 with an ordered list of pairs. The return value of object_pairs_hook will be used instead of the dict. 
 This feature can be used to implement custom decoders. If object_hook is also defined, the object_pairs_hook takes priority.
