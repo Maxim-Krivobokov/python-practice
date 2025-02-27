@@ -5,7 +5,7 @@ namedtuple( typename, field_names)
  - typename - the name of the namedtuple
  - field names - the list of attributes stored in the namedtuple
 
-```
+```python
 # Python code to demonstrate namedtuple()
 from collections import namedtuple
 
